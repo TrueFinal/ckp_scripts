@@ -21,7 +21,7 @@ echo " O arquivo gerado será salvo em: ${OUTPUT_PATH}"
 echo "=============================================="
 
 # Executa o comando cpsizeme por 24 horas (tempo em minutos)
-timeout "${DURATION}" cpsizeme run -o "${OUTPUT_PATH}"
+cpsizeme run -o "${OUTPUT_PATH}" -t "${DURATION}"
 
 # Verifica se o comando foi concluído com sucesso ou gera menssagem de erro
 if [ $? -eq 0 ]; then
