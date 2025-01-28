@@ -1,0 +1,1 @@
+#Script para automatização da execução do comando "cpsizeme" em ambientes Checkpoint na versão R81.20

@@ -4,9 +4,9 @@ Este repositório contém uma coleção de scripts úteis para automação, admi
 
 ## Conteúdo do Repositório
 
-### 1. **Policy Backup Script**
-   - **Descrição**: Realiza o backup das políticas configuradas no firewall.
-   - **Uso**: Este script pode ser agendado para execução periódica, garantindo que as políticas sejam salvas regularmente.
+### 1. **First Time Wizard Setup**
+   - **Descrição**: Automatização da criação de template e configurações iniciais do First Time Wizard na versão R81.20 *WIP*.
+   - **Uso**: Criação de template de para configuração do First Time Wizard na versão R81.20 *WIP*.
 
 ## Como Usar
 
@@ -17,7 +17,7 @@ Este repositório contém uma coleção de scripts úteis para automação, admi
 
 2. Navegue até o script desejado:
    ```bash
-   cd Scripts_CKP\R81.20
+   cd Scripts_CKP\R81.20\script_desejado
    ```
 
 3. Leia o arquivo de documentação do script (quando aplicável) para instruções detalhadas de uso.
@@ -32,3 +32,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar 
 
 - Teste sempre os scripts em um ambiente de homologação antes de utilizá-los em produção.
 - Este repositório é fornecido "como está" e não nos responsabilizamos por quaisquer problemas decorrentes do uso.
+- Considerar que esté repositório até em WIP (Work In Progress), os scripts disponíveis não estão finalizados.
